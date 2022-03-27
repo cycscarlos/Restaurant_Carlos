@@ -17,6 +17,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 /* -----------Estilo base--------------*/
 img {
@@ -239,6 +240,15 @@ h6 {
   text-align: center;
   margin: auto;
   margin-top: 15px;
+  opacity: 0.7;
+}
+
+.copy a {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+.copy a:hover {
+  opacity: 0.5;
 }
 
 .main-footer [class*="fas fa-"] {
@@ -259,7 +269,11 @@ h6 {
   top: 3px;
   right: 5px;
 }
-/* ------------------Estilos Responsive---------- */
+.main-footer .column--33 p.column__txt {
+  text-align: justify;
+  margin-right: 50px;
+}
+/*: ------------------Estilos Responsive---------- */
 @media screen and (min-width: 480px) {
   .logo {
     color: #fff;
@@ -352,7 +366,8 @@ h6 {
   .main-header__contactInfo__phone,
   .main-header__contactInfo__address {
     padding-right: 0;
-    font-size: 1.15em;
+    /* font-size: 1.15em; */
+    font-size: 0.8em;
   }
   .main-nav {
     padding: 0;

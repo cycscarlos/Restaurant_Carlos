@@ -90,38 +90,60 @@
             <p class="column__txt fas fa-envelope">
               trattoria.ristorante@gmail.com
             </p>
-            <div class="social-icon">
+            <!-- <div class="social-icon">
               <a href="" class="social-icon__link"
-                ><span class="fab fa-facebook-f"></span
+                ><span class="fab fa-instagram"></span
               ></a>
               <a href="" class="social-icon__link"
                 ><span class="fab fa-twitter"></span
               ></a>
               <a href="" class="social-icon__link"
-                ><span class="fas fa-envelope"></span
+                ><span class="fas fa-whatsapp"></span
               ></a>
-            </div>
+            </div> -->
           </div>
           <!-- action="enviar-prueba.php" -->
           <form
-            action="https://formspree.io/f/mzboablr"
+            action="https://formspree.io/f/mnqwbdvw"
             data-netlify="true"
             method="post"
             class="formulario column column--50"
           >
-            <label for="" class="formulario__label">Nombre:</label>
-            <input type="text" class="formulario__input-txt" name="nombre" />
-            <label for="" class="formulario__label">Correo:</label>
-            <input type="text" class="formulario__input-txt" name="correo" />
-            <label for="" class="formulario__label">Teléfono:</label>
-            <input type="text" class="formulario__input-txt" name="telefono" />
-            <label for="" class="formulario__label">Mensaje:</label>
+            <!-- <label for="" class="formulario__label">Nombre y Apellido:</label> -->
+            <input
+              type="text"
+              class="formulario__input-txt"
+              name="nombre"
+              placeholder="Nombre"
+            />
+            <input
+              type="text"
+              class="formulario__input-txt"
+              name="nombre"
+              placeholder="Apellido"
+            />
+            <!-- <label for="" class="formulario__label">Correo:</label> -->
+            <input
+              type="text"
+              class="formulario__input-txt"
+              name="correo"
+              placeholder="Correo Electrónico"
+            />
+            <!-- <label for="" class="formulario__label">Teléfono:</label> -->
+            <input
+              type="text"
+              class="formulario__input-txt"
+              name="telefono"
+              placeholder="Teléfono"
+            />
+            <!-- <label for="" class="formulario__label">Mensaje:</label> -->
             <textarea
               name="mensaje"
               id=""
               cols="30"
               rows="10"
               class="formulario__textarea"
+              placeholder="Mensaje"
             ></textarea>
             <input type="submit" value="Enviar" class="btn formulario__btn" />
           </form>
@@ -198,6 +220,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/menu.js"></script>
-    <script src="js/modal.js"></script>
+    <!-- <script src="js/modal.js"></script> -->
   </body>
 </html>

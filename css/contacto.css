@@ -1,18 +1,18 @@
 .container .container--flex {
   align-items: flex-start;
 }
+
 .contact-information {
   padding: 10px;
   padding-top: 0;
   margin-bottom: 30px;
-  border-bottom: 1px solid #de423a;
 }
 .contact-information .column__title {
   font-family: "pacifico", cursive;
   font-weight: 100;
 }
 
-.contact-information [class*="fa-"] {
+/* .contact-information [class*="fa-"] {
   font-size: 1em;
   margin-right: 7px;
   position: relative;
@@ -27,16 +27,26 @@
   color: #fff;
   margin-left: 0;
   margin-right: 15px;
-}
+} */
 .formulario {
-  padding: 10px;
-  padding-top: 0;
+  padding: 5px;
+  background-color: darkslategrey;
+  color: #fff;
+  font-size: 0.7rem;
+  box-shadow: 0px 10px 10px 1px rgba(0, 0, 0, 0.8);
+}
+
+input {
+  margin: 20px;
+  border-radius: 3px;
+  border: none;
 }
 .formulario__label,
 .formulario__input--txt,
 .formulario__textarea {
   display: block;
   width: 100%;
+  margin: 0 auto;
 }
 .formulario__input--txt {
   padding: 10px;
@@ -52,10 +62,22 @@
   border: none;
   cursor: pointer;
   font-size: 1em;
+  border-radius: 3px;
 }
 .copy span {
   color: #ff4900;
 }
+
+.contact-information [class*="fas fa-"]:before {
+  color: black;
+  margin-right: 5px;
+}
+
+.column--33 [class*="fas fa-"]:before {
+  color: white;
+  margin-right: 5px;
+}
+
 @media screen and (min-width: 480px) {
   .contact-information p {
     font-size: 0.75em;

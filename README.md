@@ -23,7 +23,7 @@ Take a look at the website at the following link [Github Pages] (https://cycscar
 <br>
 
 <ul>
-<li>Background heros images</li>
+<li>Background hero images</li>
 <li>Using of several CSS animation libraries for hover effects</li>
 <li>Using of several JavaScript libraries for smooth scrolling, animations, etc.</li>
 <li>Social media icons definitons</li>
